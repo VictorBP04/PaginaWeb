@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS</title>
+    <script type="text/javascript">
+        var v1=prompt("Como te llamas");
+        var v2=parseInt(prompt("Dime un numero"));
+        var v3=parseInt(prompt("Dime un numero"));
+        var v4=v2+v3
+        if(v4>10)
+        alert(hola+''+v1+''+v4)
+    </script>
+</head>
+<body>
+<form action="pagina.html">
+<p>Nombre &nbsp;<input type="text" name="nombre" /></p>
+<p>Apellido &nbsp;<input type="text" name="Apellido"/></p>   
+<p>Contraseña &nbsp;<input type="password" name="password"/></p>   
+<p>Apellido &nbsp;<input type="text" name="Apellido"/></p>   
+<form action="boton.php" method="get">
+    <p>Nombre: <input type="text" name="nombre" size="40"></p>
+    <p>Año: <input type="number" name="nacido" min="1900"></p>
+    <p>Sexo:
+        <input type="radio" name="hm" value="h">Hombre
+        <input type="radio" name="hm" value="m">Mujer
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="submit" value="Borrar">
+        <input type="button" value="Enviar">
+    </p>
+</form>
+</form>    
+</body>
+</html>
